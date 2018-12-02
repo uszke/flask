@@ -1,0 +1,65 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7fff6;
+    color: #444444;
+}
+
+header{
+    background-color: #87d68d;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+
+}
+
+footer{
+    background-color:  #93B48B;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: auto;
+    color: #BCEBCB;
+}
+
+#masthead{
+    color: #f7FFF6;
+    margin: 0;
+    padding: 0;
+    height: auto;
+
+}
+
+nav{
+    background-color: #8491a3;
+    color: #f7fff6;
+
+}
+
+nav li{
+    padding: 0.5%; /*shell around listpoints to have space*/
+    list-style-type: none; /*removes bullets*/
+    display: inline; /*displays horizontally */
+}
+#home{
+    background-color: #93B48B;
+}
+
+#content_wrapper{
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 150px;
+}
+
+#map{
+    background-color: #BCEBCB;
+    height: 480px;
+    width: 620px;
+}
+<!-- @media only screen and (min-width: 400px){
+    everything within ths only counts for media with a minimum width of 400px aka a phone
+}
+-->
