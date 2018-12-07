@@ -60,26 +60,26 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="home.html">rIOT</a>
+      <a class="navbar-brand" href="{{ url_for('index') }}">rIOT</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="home.html">Home</a></li>
-        <li><a href="map.html">Map</a></li>
-        <li><a href="showdata_gps.html">Table</a></li>
+        <li class="active"><a href="{{ url_for('index') }}">Home</a></li>
+        <li><a href="{{ url_for('map_render') }}">Map</a></li>
+        <li><a href="{{ url_for('data_output') }}">Table</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-refresh"></span> Refresh</a></li>
       </ul>
     </div>
   </div>
 </nav>
-  
+
 <div class="container-fluid text-center">    
   <div class="row content">
     <div class="col-sm-2 sidenav">
-      <p><a href="add.html">Search for a bike</a></p>
-      <p><a href="#">Want to look at the map?</a></p>
+      <p><a href="{{ url_for('addbike') }}">Search for a bike</a></p>
+      <p><a href="{{ url_for('map_render') }}">Want to look at the map?</a></p>
       <p><a href="#">List of bikes</a></p>
     </div>
     <div class="col-sm-8 text-left"> 
